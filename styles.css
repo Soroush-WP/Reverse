@@ -68,9 +68,9 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-  border-color: #6c63ff;
+  border-color: #17162da9;
   background-color: #fff;
-  box-shadow: 0 0 12px rgba(108, 99, 255, 0.3);
+  box-shadow: 0 0 12px #292845
 }
 
 /* ورودی خروجی readonly با رنگ کمی متفاوت */
@@ -84,7 +84,7 @@ input[readonly] {
 .btn-custom {
   cursor: pointer;
   padding: 14px 24px;
-  background: linear-gradient(135deg, #6c63ff, #9f8fff);
+  background: linear-gradient(135deg, #17162de6, #1b193aa8);
   border: none;
   border-radius: 12px;
   color: white;
@@ -95,19 +95,21 @@ input[readonly] {
     background 0.4s ease,
     box-shadow 0.4s ease,
     transform 0.2s ease;
-  box-shadow: 0 6px 15px rgba(108, 99, 255, 0.4);
+  box-shadow: 0 6px 15px #1b1a32da;
   user-select: none;
 }
 
 .btn-custom:hover {
-  background: linear-gradient(135deg, #5848db, #7a6de1);
-  box-shadow: 0 8px 22px rgba(88, 72, 219, 0.55);
-  transform: translateY(-3px);
+  background: linear-gradient(135deg, #211f3ff3, #211f45c3);
+  box-shadow: 0 8px 22px #232245c6;
+  transform: translateY(-2px);
+  color: white;
 }
 
 .btn-custom:active {
-  transform: translateY(1px);
-  box-shadow: 0 4px 10px rgba(88, 72, 219, 0.6);
+  transform: translateY(4px);
+  box-shadow: 0 4px 10px #2b295ad8;
+  color: white !important;
 }
 
 /* ======== لودینگ ======== */
